@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormDashbord</class>
+ <widget class="QWidget" name="FormDashbord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>       D A S H B O A R D</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(60, 60, 60)</string>
+  </property>
+  <widget class="QPushButton" name="BT_employees">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>497</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(40, 40, 40);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/employees.png</normaloff>img/employees.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>220</width>
+     <height>220</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BT_history">
+   <property name="geometry">
+    <rect>
+     <x>517</x>
+     <y>10</y>
+     <width>497</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(40, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/history.png</normaloff>img/history.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>180</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BT_timezone">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>355</y>
+     <width>497</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(40, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/acces2.gif</normaloff>img/acces2.gif</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>200</width>
+     <height>200</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BT_system">
+   <property name="geometry">
+    <rect>
+     <x>517</x>
+     <y>355</y>
+     <width>497</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(40, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/connection.png</normaloff>img/connection.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>220</width>
+     <height>220</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
